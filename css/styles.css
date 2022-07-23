@@ -20,6 +20,11 @@ body {
     list-style: none;
 }
 
+.link{
+    text-decoration: none;
+}
+
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -57,10 +62,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 
-}
-
-.link{
-    text-decoration: none;
 }
 
 .contacts-header {
@@ -199,8 +200,6 @@ body {
 
 .button-filter {
     font-family: inherit;
-    background-color:var(--second-background-color);
-    color: var(--primary-text-color);
     cursor: pointer;
     border-radius: 4px;
     border: 0;
@@ -208,6 +207,9 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    background-color:var(--second-background-color);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
 }
 
 .button-filter:hover, .button-filter:focus {
